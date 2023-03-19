@@ -1,0 +1,39 @@
+.dashboard {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    // background-color: #fff;
+    width: 300px;
+    height: 100%;
+    padding: 50px 0px;
+    align-items: center;
+    &__logo {
+      display: flex;
+      margin-bottom: 50px;
+      h3 {
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 500;
+        margin-left: 25px;
+      }
+    }
+    &__items {
+      margin-left: auto;
+      margin-right: auto;
+      flex: 1;
+    }
+  }
+
+  &__right {
+    background-color: #c4c4c4;
+    flex: 1;
+    height: 100%;
+  }
+}
